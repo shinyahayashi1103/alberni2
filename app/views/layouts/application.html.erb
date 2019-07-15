@@ -10,6 +10,15 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class = "container">
+      <h1>ALBERNI</h1>
+      <h2>メニューバー</h2>
+      <a href="/" class="btn btn-danger">top</a>
+      <a href="/menu" class="btn btn-primary">menu</a>
+      <a href="/owner" class="btn btn-info">owner</a>
+      <a href="/calendar" class="btn btn-warning">calendar</a>
+    
+      <%= yield %>
+    </div>
   </body>
 </html>
